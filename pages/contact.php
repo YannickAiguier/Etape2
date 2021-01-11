@@ -1,8 +1,3 @@
-<?php
-$metaTitle = 'Contacter Yannick';
-$metaDescription = 'Envoyez-moi un message';
-include 'header.php';
-?>
 <div id="corps">
     <div id="gauche"></div>
     <main>
@@ -49,6 +44,3 @@ include 'header.php';
     </main>
     <div id="droite"></div>
 </div>
-<?php
-include 'footer.php';
-?>

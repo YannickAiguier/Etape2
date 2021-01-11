@@ -15,6 +15,6 @@
     <div id="photo"><img src="images/photo.jpg" alt="Une photo de Yannick"></div>
 </header>
 <nav>
-    <a href="index.php">Mon CV</a> | <a href="hobby.php">Mon Hobby</a> | <a href="contact.php">Me
+    <a href="pages/cv.php">Mon CV</a> | <a href="pages/hobby.php">Mon Hobby</a> | <a href="pages/contact.php">Me
         contacter</a><br>
 </nav>

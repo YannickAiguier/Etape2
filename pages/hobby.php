@@ -1,8 +1,3 @@
-<?php
-$metaTitle = 'Le hobby de Yannick';
-$metaDescription = 'Ma passion pour le badminton, un sport très physique et ludique';
-include 'header.php';
-?>
 <div id="corps">
     <div id="gauche"></div>
     <main>
@@ -17,6 +12,3 @@ include 'header.php';
     </main>
     <div id="droite"></div>
 </div>
-<?php
-include 'footer.php';
-?>
