@@ -1,21 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles2.css">
-    <title>Mon hobby</title>
-</head>
-<body>
-    <header>
-        Yannick Aiguier
-        <div id="photo"><img src="images/photo.jpg" alt="Une photo de Yannick"></div>
-    </header>
-    <nav>
-        <a href="index.html">Mon CV</a> | <a href="hobby.html">Mon Hobby</a> | <a href="contact.html">Me contacter</a><br>
-    </nav>
-    <div id="corps">
-        <div id="gauche"></div>
+<?php
+$metaTitle = 'Le hobby de Yannick';
+$metaDescription = 'Ma passion pour le badminton, un sport très physique et ludique';
+include 'header.php';
+?>
+<div id="corps">
+    <div id="gauche"></div>
     <main>
         <h1>Le badminton</h1>
         <p>Maintenant hébergé sur Git !!</p>
@@ -27,10 +16,7 @@
         <iframe title="Une vidéo Youtube montrant les meilleurs moments d'un match entre les 2 meilleurs joueurs de badminton au monde." width="560" height="315" src="https://www.youtube.com/embed/5EydNhXLS7o" allowfullscreen></iframe>
     </main>
     <div id="droite"></div>
-    </div>
-    <footer>
-        <a href="index.html">Mon CV</a> | <a href="hobby.html">Mon Hobby</a> | <a href="contact.html">Me contacter</a><br>
-    </footer>
-</body>
-
-</html>
+</div>
+<?php
+include 'footer.php';
+?>
