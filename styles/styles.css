@@ -113,7 +113,7 @@ iframe {
     vertical-align: top;
 }
 
-#formnom, #formmail, #formmsg {
+#formnom, #formprenom, #formmail, #formmsg {
     width: 300px;
 }
 
@@ -127,4 +127,9 @@ iframe {
 
 #bouton {
     margin-left: 100px;
+}
+
+#radios p {
+    text-align: left;
+    display: inline;
 }

@@ -2,7 +2,7 @@
 $metaTitle = 'Le CV de Yannick';
 $metaDescription = 'Actuellement en formation au Campus Numérique de Valence comme technicien développeur';
 if (isset($_GET['page'])) { // nom de la page renseigné
-    $page = filter_var($_GET['page'], FILTER_SANITIZE_SPECIAL_CHARS, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_STRIP_HIGH | FILTER_NULL_ON_FAILURE);
+    $page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_STRING);
     if ($page)
     {
         if ($page == 'cv') {
