@@ -9,6 +9,9 @@
             <!--<form action="https://httpbin.org/post" method="POST">-->
                 <form action="/?page=contact" method="POST">
                 <div class="box">
+                    <?php
+                    echo $erreur['civilite']."<br>";
+                    ?>
                     <label class="lab" for="choix">Civilité :</label>
                     <select name="civilite" id="choix">
                         <option value="">--Choisissez--</option>
@@ -17,14 +20,23 @@
                     </select>
                 </div>
                 <div class="box" >
+                    <?php
+                    echo $erreur['nom-utilisateur']."<br>";
+                    ?>
                     <label class="lab" for="formnom">Nom :</label>
                     <input type="text" id="formnom" name="nom-utilisateur">
                 </div>
                 <div class="box" >
+                    <?php
+                    echo $erreur['prenom-utilisateur']."<br>";
+                    ?>
                     <label class="lab" for="formprenom">Prénom :</label>
                     <input type="text" id="formprenom" name="prenom-utilisateur">
                 </div>
                 <div class="box" >
+                    <?php
+                    echo $erreur['mail-utilisateur']."<br>";
+                    ?>
                     <label class="lab" for="formmail">E-mail :</label>
                     <input type="email" id="formmail" name="mail-utilisateur">
                 </div>
@@ -35,7 +47,7 @@
                         <label for="emploi">Proposition d'emploi</label>
                     </div>
                     <div>
-                        <input type="radio" id="infos" name="raison" value="infos">
+                        <input type="radio" id="infos" name="raison" value="infos" checked>
                         <label for="infos">Demande d'informations</label>
                     </div>
                     <div>
@@ -44,6 +56,9 @@
                     </div>
                 </div>
                 <div class="box" >
+                    <?php
+                    echo $erreur['msg-utilisateur']."<br>";
+                    ?>
                     <label class="lab" for="formmsg">Message :</label>
                     <textarea name="msg-utilisateur" id="formmsg" cols="30" rows="10"></textarea>
                 </div>
