@@ -8,7 +8,7 @@
             <h1>Formulaire de contact</h1>
                 <form action="/?page=contact" method="POST">
                 <div class="box">
-                    <?=$erreur['civilite']?>
+                    <?=$formErrors['civilite']?>
                     <br>
                     <label class="lab" for="choix">Civilité :</label>
                     <select name="civilite" id="choix" value="Mme">
@@ -18,25 +18,25 @@
                     </select>
                 </div>
                 <div class="box" >
-                    <?= $erreur['nom-utilisateur'] ?>
+                    <?= $formErrors['nom-utilisateur'] ?>
                     <br>
                     <label class="lab" for="formnom">Nom :</label>
                     <input type="text" id="formnom" name="nom-utilisateur" value="<?=$result_form['nom-utilisateur']?>">
                 </div>
                 <div class="box" >
-                    <?=$erreur['prenom-utilisateur']?>
+                    <?=$formErrors['prenom-utilisateur']?>
                     <br>
                     <label class="lab" for="formprenom">Prénom :</label>
                     <input type="text" id="formprenom" name="prenom-utilisateur" value="<?=$result_form['prenom-utilisateur']?>">
                 </div>
                 <div class="box" >
-                    <?=$erreur['mail-utilisateur']?>
+                    <?=$formErrors['mail-utilisateur']?>
                     <br>
                     <label class="lab" for="formmail">E-mail :</label>
                     <input type="text" id="formmail" name="mail-utilisateur" value="<?=$result_form['mail-utilisateur']?>">
                 </div>
                 <div class="box" id="radios">
-                    <?=$erreur['raison']?>
+                    <?=$formErrors['raison']?>
                     <br>
                     <p> Raison du contact :</p>
                     <div>
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="box" >
-                    <?=$erreur['msg-utilisateur']?>
+                    <?=$formErrors['msg-utilisateur']?>
                     <br>
                     <label class="lab" for="formmsg">Message :</label>
                     <textarea name="msg-utilisateur" id="formmsg" cols="30" rows="10"><?=$result_form['msg-utilisateur']?></textarea>

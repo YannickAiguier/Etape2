@@ -13,6 +13,9 @@ if (isset($_GET['page'])) { // nom de la page renseigné
         } elseif ($page == 'contact') {
             $metaTitle = 'Contacter Yannick';
             $metaDescription = 'Envoyez-moi un message';
+        } elseif ($page == 'formulaire_ok') {
+            $metaTitle = 'Formulaire rempli';
+            $metaDescription = 'formulaire rempli';
         } else {
             $page = '404';
         }
