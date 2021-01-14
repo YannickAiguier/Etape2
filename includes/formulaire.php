@@ -16,22 +16,6 @@ $raison_choisie = [
     'infos'     => '',
     'presta'    => ''
 ];
-/*$result_form = [
-    "civilite" => '',
-    "nom-utilisateur" => '',
-    "prenom-utilisateur" => '',
-    "mail-utilisateur" => '',
-    "raison" => '',
-    "msg-utilisateur" => ''
-];*/
-/*$args = array(
-    'civilite'          => FILTER_SANITIZE_STRING,
-    'nom-utilisateur'   => FILTER_SANITIZE_STRING,
-    'prenom-utilisateur'=> FILTER_SANITIZE_STRING,
-    'mail-utilisateur'  => FILTER_VALIDATE_EMAIL,
-    'raison'            => FILTER_SANITIZE_STRING,
-    'msg-utilisateur'   => FILTER_SANITIZE_STRING
-);*/
 
 $erreur_presente = false;
 if (!empty($_POST)) {

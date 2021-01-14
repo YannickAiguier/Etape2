@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (!isset($_SESSION['dateFirstVisit'])) { // la variable n'existe pas il faut la créer
+    $_SESSION['dateFirstVisit'] = date("Y-m-d H:i:s");
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
